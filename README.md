@@ -1,5 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Config
+You *must* create a config.js with at least the following exports:
+- admin_password
+- cookie_salt
+- locale
+- map_center:
+  - lat
+  - lng
+- google_api_key
+
 ## Available Scripts
 
 In the project directory, you can run:
