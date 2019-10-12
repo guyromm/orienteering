@@ -1,0 +1,9 @@
+name: orienteering
+
+windows:
+  - node:
+      layout: main-vertical
+      panes:
+        - emacs -nw src/App.js      
+        - HTTPS=true npm run start
+        - nodemon server.js

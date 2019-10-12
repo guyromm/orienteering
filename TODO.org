@@ -1,0 +1,12 @@
+* DOING image resizing
+* DONE swipe left/right to move between objects
+* TODO print mode for codes in admin
+* TODO update markers in place (descr, lat/lng) , delete
+* DONE user position display and update
+* DONE 1 step auth (passwordless) for users
+* DONE mark log write down
+* DONE mark / progress report per user
+* DOING flow to request login if scanned a marker w/ secret
+* DOING mobile friendly view
+* DONE redo cycling through markers by storing markerid instead of "cur"
+* DONE map in satellite mode
