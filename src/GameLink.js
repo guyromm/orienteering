@@ -4,8 +4,9 @@ import { observer } from "mobx-react";
 import {Link} from 'react-router-dom';
 import React from 'react';
 import {store} from './App';
+import cfg from './config';
 
-const BASEURL='https://guyromm.zapto.org/'; //https://192.168.14.4:3000/';
+const BASEURL=cfg.baseurl;
 const codeStyle = {width:'60%',height:'40vh'};
 
 @observer
