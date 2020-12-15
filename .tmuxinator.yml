@@ -5,5 +5,5 @@ windows:
       layout: main-vertical
       panes:
         - emacs -nw src/App.js      
-        - PORT=3006 HOST= HTTPS= npm run start
-        - nodemon server.js
+        - PORT=3009 HOST= HTTPS= npm run start
+        - npx nodemon server.js

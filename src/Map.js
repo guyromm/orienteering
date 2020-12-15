@@ -200,7 +200,7 @@ class MapWrapper extends Component {
     return (
 	// Important! Always set the container height explicitly
 
-        ((markers.length && this.store.auth) || (this.store.auth && this.store.auth==='admin')) ? (	    <div style={{ height: '60vh', width: '100%' }}><GoogleMapReact
+        (true || (markers.length && this.store.auth) || (this.store.auth && this.store.auth==='admin')) ? (	    <div style={{ height: '60vh', width: '100%' }}><GoogleMapReact
 	options={this.getMapOptions}
 	onGoogleApiLoaded={this.handleMapMounted}
 	onChanged={this.centerChanged}
